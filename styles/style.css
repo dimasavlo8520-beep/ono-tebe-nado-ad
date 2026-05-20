@@ -1,4 +1,4 @@
-main {
+main { /* это я сделал чтоб хоть что то поменять для ласт коммита" */
   display: flex;
   flex-direction: column;
   gap: 183px;
@@ -126,7 +126,6 @@ main {
   letter-spacing: 60px;
 }
 
-/* Убирает ненужный отступ в конце слова, создаваемый свойством letter-spacing всего элемента */
 
 .remove-spacing {
   letter-spacing: normal;
@@ -144,6 +143,9 @@ main {
 
 .cover__description-text {
   color: #FFF;
+  position: absolute;
+  left: 0;
+  bottom: 0;
   font-size: 22px;
   line-height: 1.27;
   text-transform: uppercase;
@@ -194,6 +196,7 @@ main {
 .card-link {
   display: block;
   height: 100%;
+  text-decoration-line: none;
 }
 
 .card {
@@ -237,6 +240,7 @@ main {
 }
 
 .card__text {
+
   position: relative;
   z-index: 1;
   color: #FFF;
@@ -297,7 +301,7 @@ main {
 }
 
 .about__text p {
-  font-size: 20px;
+  font-size: 22px;
   line-height: normal;
 }
 
